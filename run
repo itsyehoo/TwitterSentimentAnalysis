@@ -1,0 +1,28 @@
+#Removing Files
+rm -r twitterSentiments.txt
+rm -r out.log
+
+echo Please enter a word you would you like to check?
+read varname
+nohup python3 TwitterAnalyzer.py $varname > out.log &
+
+sleep 1
+echo
+echo PLEASE WAIT.........
+echo 
+sleep 1
+echo CHECKING TWITTER.....
+echo
+sleep 2
+echo GETTING TWEETS.......
+sleep 3 
+echo
+echo LOADING GRAPH......., 
+
+sleep 1
+python3 Graph.py
+
+
+
+
+
