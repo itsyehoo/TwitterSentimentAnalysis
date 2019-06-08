@@ -1,0 +1,4 @@
+nltk==3.4.1
+matplotlib==3.1.0
+scikit-learn==0.21.2
+tweepy==3.7.0
