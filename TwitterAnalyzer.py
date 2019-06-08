@@ -16,7 +16,7 @@ class listener(StreamListener):
         tweet = allData["text"]
         
         #Takes the data from twitter and returns classification and confidence
-        sentimenValue, confidenceLevel = s.sentiment(tweet)
+        sentimentValue, confidenceLevel = s.sentiment(tweet)
         
         #Printing live tweets including their sentiment value and confidence level
         print(tweet, sentimentValue, confidenceLevel)
