@@ -3,7 +3,7 @@ from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
-import sentiment_mod as s
+import sentiment as s
 from tokens import *
 
 class listener(StreamListener):
